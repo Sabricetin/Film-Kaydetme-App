@@ -17,6 +17,10 @@
 		1E6DF18E2BF3F956006E8589 /* Film_Kaydetme_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DF18D2BF3F956006E8589 /* Film_Kaydetme_APPTests.swift */; };
 		1E6DF1982BF3F956006E8589 /* Film_Kaydetme_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DF1972BF3F956006E8589 /* Film_Kaydetme_APPUITests.swift */; };
 		1E6DF19A2BF3F956006E8589 /* Film_Kaydetme_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DF1992BF3F956006E8589 /* Film_Kaydetme_APPUITestsLaunchTests.swift */; };
+		1E6DF1A72BF3FB71006E8589 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6DF1A62BF3FB71006E8589 /* DetailsVC.swift */; };
+		1E6DF1A92BF41131006E8589 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DF1A82BF41131006E8589 /* select.png */; };
+		1E6DF1AA2BF41131006E8589 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DF1A82BF41131006E8589 /* select.png */; };
+		1E6DF1AB2BF41131006E8589 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6DF1A82BF41131006E8589 /* select.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		1E6DF1932BF3F956006E8589 /* Film-Kaydetme-APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Film-Kaydetme-APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6DF1972BF3F956006E8589 /* Film_Kaydetme_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film_Kaydetme_APPUITests.swift; sourceTree = "<group>"; };
 		1E6DF1992BF3F956006E8589 /* Film_Kaydetme_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film_Kaydetme_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E6DF1A62BF3FB71006E8589 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		1E6DF1A82BF41131006E8589 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +110,9 @@
 				1E6DF1732BF3F954006E8589 /* AppDelegate.swift */,
 				1E6DF1752BF3F954006E8589 /* SceneDelegate.swift */,
 				1E6DF1772BF3F954006E8589 /* ViewController.swift */,
+				1E6DF1A62BF3FB71006E8589 /* DetailsVC.swift */,
 				1E6DF1792BF3F954006E8589 /* Main.storyboard */,
+				1E6DF1A82BF41131006E8589 /* select.png */,
 				1E6DF17F2BF3F956006E8589 /* Assets.xcassets */,
 				1E6DF1812BF3F956006E8589 /* LaunchScreen.storyboard */,
 				1E6DF1842BF3F956006E8589 /* Info.plist */,
@@ -235,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E6DF1802BF3F956006E8589 /* Assets.xcassets in Resources */,
+				1E6DF1A92BF41131006E8589 /* select.png in Resources */,
 				1E6DF1832BF3F956006E8589 /* Base in Resources */,
 				1E6DF17B2BF3F954006E8589 /* Base in Resources */,
 			);
@@ -244,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6DF1AA2BF41131006E8589 /* select.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6DF1AB2BF41131006E8589 /* select.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +276,7 @@
 				1E6DF17E2BF3F954006E8589 /* Film_Kaydetme_APP.xcdatamodeld in Sources */,
 				1E6DF1742BF3F954006E8589 /* AppDelegate.swift in Sources */,
 				1E6DF1762BF3F954006E8589 /* SceneDelegate.swift in Sources */,
+				1E6DF1A72BF3FB71006E8589 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7PW787VZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Film-Kaydetme-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,6 +466,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +487,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2A7PW787VZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Film-Kaydetme-APP/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +495,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
